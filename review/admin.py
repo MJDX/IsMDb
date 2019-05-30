@@ -3,7 +3,7 @@ from django.contrib import admin
 # Register your models here.
 from review.models import *
 
-admin.site.register(Cast)
+admin.site.register(Staff)
 admin.site.register(Suggestion)
 admin.site.register(MovieReview)
 admin.site.register(ReactComment)
